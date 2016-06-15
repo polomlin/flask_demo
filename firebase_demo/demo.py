@@ -9,6 +9,7 @@ Created on Jun 15, 2016
 
 from flask import Flask
 from flask import jsonify
+from firebase import firebase
 app = Flask(__name__)
 
 __VERSION = 'v0.1'
